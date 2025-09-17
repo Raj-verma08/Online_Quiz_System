@@ -16,6 +16,7 @@ Perfect for learning **Java, JDBC, Database Connectivity**, and for showcasing i
 ---
 
 ## 🏗️ Project Structure
+```
 Online_Quiz_System/
 │── lib/ # MySQL Connector JAR
 │── out/ # Compiled .class files
@@ -34,7 +35,7 @@ Online_Quiz_System/
 │── README.md
 │── screenshot.png # Demo Screenshot
 
-
+```
 ---
 
 ## 🛠️ Setup Instructions
@@ -75,26 +76,22 @@ javac -cp "lib/*" -d out src/**/*.java
 Run the project:
 java -cp "out;lib/*" Main
 
-📸 Screenshot
-Main Menu
+----
+### 📸 Screenshot
+![Screenshot](Screenshot%202025-09-17%20234353.png)
 
-(Take screenshot of your CLI menu and save it as screenshot.png in the project root folder.)
+----
+### 💡 Future Enhancements
 
-💡 Future Enhancements
+- Add Admin Panel (insert/update/delete questions).
 
-Add Admin Panel (insert/update/delete questions).
+- Store user quiz history in DB.
 
-Store user quiz history in DB.
+- Create a GUI version using JavaFX/Swing.
 
-Create a GUI version using JavaFX/Swing.
-
-Add authentication (login/signup) for multiple users.
-
-👨‍💻 Author
-
+- Add authentication (login/signup) for multiple users.
+----
+### 👨‍💻 Author
 Raj (MCA Data Science, UPES)
-
-📧 [Your Email Here]
-
 💼 Open to internship & placement opportunities
 
